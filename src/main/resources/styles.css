@@ -1,0 +1,64 @@
+.root {
+    -fx-background-color: #1e2124; /* Darkest gray for the root background */
+}
+
+.text-field {
+    -fx-text-fill: white; /* White text */
+    -fx-background-color: #424549; /* Gray background */
+    -fx-border-color: #800080; /* Purple */
+    -fx-border-width: 2px;
+}
+
+.button {
+    -fx-background-color: linear-gradient(to right, #800080, #FF00FF); /* Gradient from purple to magenta */
+    -fx-border: none;
+    -fx-text-fill: white;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font-size: 16px;
+    -fx-transition-duration: 0.4s;
+    -fx-cursor: pointer;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to right, #FF00FF, #800080); /* Gradient from magenta to purple */
+    -fx-transition: background-color 0.4s ease;
+}
+
+.button:pressed {
+    -fx-background-color: #800080; /* Change to the color you want when the button is pressed */
+    -fx-transition: background-color 0.4s ease;
+}
+
+.red {
+    -fx-fill: red;
+}
+
+.green {
+    -fx-fill: green;
+}
+
+.yellow {
+    -fx-fill: yellow;
+}
+
+.blue {
+    -fx-fill: blue;
+}
+
+.purple {
+    -fx-fill: purple;
+}
+
+.black {
+    -fx-fill: black;
+}
+
+.white {
+    -fx-fill: white;
+}
+
+.orange {
+    -fx-fill: orange;
+}
